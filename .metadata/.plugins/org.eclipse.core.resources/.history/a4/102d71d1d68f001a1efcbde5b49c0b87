@@ -1,0 +1,9 @@
+package com.roots.cacaopay.transaccion.service;
+
+import com.roots.cacaopay.commons.services.CommonService;
+import com.roots.cacaopay.transaccion.entity.Cuenta;
+
+public interface CuentaService extends CommonService<Cuenta> {
+
+	public Cuenta findByNumero(String numero);
+}

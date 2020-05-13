@@ -1,0 +1,21 @@
+package com.roots.cacaopay.transaccion.entity;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+/**
+*
+* @author Javier Ramirez
+*/
+@Entity
+@Table(name = "relacioncuenta", catalog = "postgres", schema = "public")
+public class RelacionCuenta implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+
+	@Id
+	
+}

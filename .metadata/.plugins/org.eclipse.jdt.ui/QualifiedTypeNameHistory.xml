@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonIgnoreProperties"/>
+<fullyQualifiedTypeName name="javax.persistence.PrePersist"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+<fullyQualifiedTypeName name="com.roots.cacaopay.transaccion.entity.DefinicionCuenta"/>
+<fullyQualifiedTypeName name="com.roots.cacaopay.transaccion.clients.Rest"/>
+<fullyQualifiedTypeName name="com.roots.cacaopay.transaccion.entity.RelacionCuenta"/>
+<fullyQualifiedTypeName name="com.roots.cacaopay.transaccion.entity.Cuenta"/>
+<fullyQualifiedTypeName name="com.roots.cacaopay.usuarios.commons.entity.Usuario"/>
+<fullyQualifiedTypeName name="com.roots.cacaopay.transaccion.service.RelacionCuentaService"/>
+<fullyQualifiedTypeName name="org.springframework.cloud.config.server.EnableConfigServer"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+<fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
+<fullyQualifiedTypeName name="org.springframework.core.env.Environment"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.cloud.context.config.annotation.RefreshScope"/>
+</qualifiedTypeNameHistroy>

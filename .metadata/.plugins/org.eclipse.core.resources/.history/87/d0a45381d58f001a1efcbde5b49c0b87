@@ -1,0 +1,21 @@
+package com.roots.cacaopay.transaccion.service;
+
+import org.springframework.stereotype.Repository;
+
+import com.roots.cacaopay.commons.services.CommonService;
+import com.roots.cacaopay.transaccion.entity.Cuenta;
+import com.roots.cacaopay.transaccion.entity.RelacionCuenta;
+import com.roots.cacaopay.usuarios.commons.entity.Usuario;
+
+@Repository
+public interface RelacionCuentaService extends CommonService<RelacionCuenta> {
+
+	public Usuario buscarUsuarioPorId(Long id);
+	
+	public RelacionCuenta buscarPorUsuarioId(Long id);
+	
+	public RelacionCuenta findByCuenta(Cuenta cuenta);
+	
+	public RelacionCuenta buscarporCuenta(Cuenta cuenta);
+	
+}

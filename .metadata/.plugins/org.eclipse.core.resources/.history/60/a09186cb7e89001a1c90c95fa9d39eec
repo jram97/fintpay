@@ -1,0 +1,5 @@
+package com.roots.cacaopay.transaccion.entity;
+
+public class RelacionCuenta {
+
+}

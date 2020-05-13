@@ -1,0 +1,16 @@
+package com.roots.cacaopay.transaccion.service;
+
+import com.roots.cacaopay.commons.services.CommonService;
+import com.roots.cacaopay.transaccion.entity.Cuenta;
+import com.roots.cacaopay.transaccion.entity.RelacionCuenta;
+import com.roots.cacaopay.usuarios.commons.entity.Usuario;
+
+public interface RelacionCuentaService extends CommonService<RelacionCuenta> {
+
+	public Usuario buscarUsuarioPorId(Long id);
+	
+	public RelacionCuenta buscarPorUsuarioId(Long id);
+	
+	public RelacionCuenta findByCuenta(Cuenta cuenta);
+	
+}
